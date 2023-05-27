@@ -1,0 +1,30 @@
+/* .Link{
+    text-decoration:none;
+}
+
+.navbar-div{
+    display:flex;
+    flex-direction:row;
+} */ 
+
+/* .container-nav{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;    
+}
+.containerHome{
+    display:flex;
+    flex-direction:column;
+}
+.containerCart{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+}
+*/
+
+.containerNav{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}

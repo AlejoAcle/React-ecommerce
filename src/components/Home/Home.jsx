@@ -2,7 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import axios from 'axios';
-
+import { Navegacion } from '../Navbar/Navbar';
+import { Product } from '../product/Product';
+import { Products } from '../Products/Products';
 
 export const Home = () => {
 
@@ -22,7 +24,9 @@ export const Home = () => {
 
   return (
     <>
-      
+      <Navegacion /> 
+      <Product />
+      {/* <Products /> */}
     
     
     </>
