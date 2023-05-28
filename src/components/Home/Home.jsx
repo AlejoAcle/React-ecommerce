@@ -4,7 +4,8 @@ import { useState } from 'react';
 import axios from 'axios';
 import { Navegacion } from '../Navbar/Navbar';
 import { Product } from '../product/Product';
-import { Products } from '../Products/Products';
+// import { Products } from '../Products/Products';
+import { List } from '../List/List';
 
 export const Home = () => {
 
@@ -25,9 +26,11 @@ export const Home = () => {
   return (
     <>
       <Navegacion /> 
+      <hr/>
       <Product />
+      <hr/>
       {/* <Products /> */}
-    
+      <List />
     
     </>
   )
